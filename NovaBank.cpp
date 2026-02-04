@@ -57,9 +57,9 @@ LRESULT CALLBACK ProceduraRegjistrimit(HWND, UINT, WPARAM, LPARAM);
 LRESULT CALLBACK ProceduraPanelit(HWND, UINT, WPARAM, LPARAM);
 LRESULT CALLBACK ProceduraAdminit(HWND, UINT, WPARAM, LPARAM);
 
-// -------------------------
+
 // Ndihmëse: konvertime dhe parsim
-// -------------------------
+
 static std::string NeUtf8(const std::wstring& s)
 {
     return std::string(s.begin(), s.end()); // thjesht për ASCII/UTF-8 të thjeshtë
